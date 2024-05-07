@@ -1,0 +1,10 @@
+{
+  "name": "rnnx-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/rnnx-e2e/src",
+  "projectType": "application",
+  "tags": [],
+  "implicitDependencies": ["rnnx"],
+  "// targets": "to see all targets run: nx show project rnnx-e2e --web",
+  "targets": {}
+}
