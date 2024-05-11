@@ -15,7 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@rnnx/store": ["libs/store/src/index.ts"]
+      "@rnnx/components": ["libs/components/src/index.ts"],
+      "@rnnx/store": ["libs/store/src/index.ts"],
+      "@rnnx/theme": ["libs/theme/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
