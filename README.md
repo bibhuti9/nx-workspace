@@ -61,3 +61,38 @@ It will show tasks that you can run with Nx.
 - [Subscribe to the Nx Youtube Channel](https://www.youtube.com/@nxdevtools)
 - [Follow us on Twitter](https://twitter.com/nxdevtools)
 # nx-workspace
+
+
+```
+# How to install expo project
+- npx create-nx-workspace@latest --preset=expo --appName=your-app-name
+```
+
+```
+# How to install react project
+- sudo npx nx g @nx/react:app my-new-app --bundler=vite --directory=apps/
+```
+
+```
+# Start Expo server
+- npx nx start app
+```
+
+```
+# Start web app
+- npx nx serve web
+```
+
+```
+# Create store
+- sudo npx nx g @nrwl/react:lib store --directory=libs/
+```
+
+```
+# Create Constants
+- sudo npx nx g @nrwl/react:lib constants --directory=libs/
+```
+
+```
+# Create APIs
+```
